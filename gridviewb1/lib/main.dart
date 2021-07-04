@@ -47,47 +47,49 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            GridView.count(
-              shrinkWrap: true,
-              crossAxisCount: 2,
-              children: [
-                Container(
-                  child: Text("$_counter"),
-                  color: Colors.cyan,
-                  padding: EdgeInsets.all(10),
-                  margin: EdgeInsets.all(5),
-                ),
-                Container(
-                  child: Text("$_counter"),
-                  color: Colors.cyan,
-                  padding: EdgeInsets.all(10),
-                  margin: EdgeInsets.all(5),
-                ),
-                Container(
-                  child: Text("$_counter"),
-                  color: Colors.cyan,
-                  padding: EdgeInsets.all(10),
-                  margin: EdgeInsets.all(5),
-                ),
-                Container(
-                  child: Text("$_counter"),
-                  color: Colors.cyan,
-                  padding: EdgeInsets.all(10),
-                  margin: EdgeInsets.all(5),
-                ),
-                Container(
-                  child: Text("$_counter"),
-                  color: Colors.cyan,
-                  padding: EdgeInsets.all(10),
-                  margin: EdgeInsets.all(5),
-                ),
-                Container(
-                  child: Text("$_counter"),
-                  color: Colors.cyan,
-                  padding: EdgeInsets.all(10),
-                  margin: EdgeInsets.all(5),
-                ),
-              ],
+            Container(
+              height: 200,
+              child: GridView.count(
+                crossAxisCount: 2,
+                children: [
+                  Container(
+                    child: Text("$_counter"),
+                    color: Colors.cyan,
+                    padding: EdgeInsets.all(10),
+                    margin: EdgeInsets.all(5),
+                  ),
+                  Container(
+                    child: Text("$_counter"),
+                    color: Colors.cyan,
+                    padding: EdgeInsets.all(10),
+                    margin: EdgeInsets.all(5),
+                  ),
+                  Container(
+                    child: Text("$_counter"),
+                    color: Colors.cyan,
+                    padding: EdgeInsets.all(10),
+                    margin: EdgeInsets.all(5),
+                  ),
+                  Container(
+                    child: Text("$_counter"),
+                    color: Colors.cyan,
+                    padding: EdgeInsets.all(10),
+                    margin: EdgeInsets.all(5),
+                  ),
+                  Container(
+                    child: Text("$_counter"),
+                    color: Colors.cyan,
+                    padding: EdgeInsets.all(10),
+                    margin: EdgeInsets.all(5),
+                  ),
+                  Container(
+                    child: Text("$_counter"),
+                    color: Colors.cyan,
+                    padding: EdgeInsets.all(10),
+                    margin: EdgeInsets.all(5),
+                  ),
+                ],
+              ),
             ),
           ],
         ),
